@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SBM.jnlp">
+  <information>
+    <title>SBM</title>
+    <vendor>THE SKYLINE DIGITAL</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SBM.jar" size="41427" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="lib\javafx-autocomplete-field-1.0.jar" size="19008" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SBM" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tesan_oils.TESAN_OILS"  name="SBM" />
+  <update check="always"/>
+</jnlp>
